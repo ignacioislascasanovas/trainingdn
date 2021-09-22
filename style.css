@@ -1,0 +1,12 @@
+.contenedor {
+    color: red;
+    background-color: #74992e;
+}
+.title1 {
+    color: rgba(25, 0, 255, 0.301);
+    background-color: yelow;
+}
+.sub,   
+#feedback {
+    width: calc(100% - 14rem);
+  }
