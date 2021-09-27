@@ -1,12 +1,66 @@
-.contenedor {
-    color: red;
-    background-color: #74992e;
+body {
+  background-color: #e8eff0b4;
 }
+
+# #h2uno {
+  color: rgb(128, 177, 241);
+}
+
+/* desde aca las reglas CSS tiene que buscar el significado
+*/
+
+.containerimg {
+  background-color: white;
+  width: 100%;
+  border: 3px solid black;
+  display: flex;
+}
+.containerimg > p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#h3uno {
+  text-align: center;
+  color: rgb(157, 185, 214);
+}
+.container.red {
+  border: 1px solid black;
+  text-align: center;
+  background-image: url(assets/img/free_solo.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
+  width: 100%;
+  display: inline;
+}
+.container {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+}
+
 .title1 {
-    color: rgba(25, 0, 255, 0.301);
-    background-color: yelow;
+  display: flex;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.sub,   
-#feedback {
-    width: calc(100% - 14rem);
-  }
+.box {
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+}
+.box > p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.box > h1 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.box > h2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer {
+  display: flex;
+}
